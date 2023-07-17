@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets/MVCWeather.bundle.scp.css"
     },
     {
+      "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/image/.DS_Store",
+      "PackagePath": "staticwebassets/image/.DS_Store"
+    },
+    {
+      "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/image/sun.jpg",
+      "PackagePath": "staticwebassets/image/sun.jpg"
+    },
+    {
+      "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/image/vecteezy_flat-and-colorful-style-weather-forecast-icon-design-design_4255821.jpg",
+      "PackagePath": "staticwebassets/image/vecteezy_flat-and-colorful-style-weather-forecast-icon-design-design_4255821.jpg"
     },
     {
       "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/js/site.js",

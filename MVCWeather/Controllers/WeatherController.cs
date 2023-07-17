@@ -7,7 +7,7 @@ public class WeatherController : Controller
 {
     public IActionResult Index()
     {
-        Weather weather = new Weather(1, "Edmonton", 23);
+        Weather weather = new Weather(1, "Edmonton", 23, "sun");
         return View(weather);
     }
 }
