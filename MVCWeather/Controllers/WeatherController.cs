@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MVCWeather.Models;
 
@@ -8,6 +7,7 @@ public class WeatherController : Controller
 {
     public IActionResult Index()
     {
-        return View();
+        Weather weather = new Weather(1, "Edmonton", 23);
+        return View(weather);
     }
 }
