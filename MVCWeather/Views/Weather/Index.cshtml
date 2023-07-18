@@ -3,16 +3,22 @@
     ViewData["Title"] = "Weather";
 }
 
-<div class="text-center">
+<div class="container text-center">
     <h1 class="display-4">Weather</h1>
-    <p>Type in the city</p>
-    <p> The city is @Model.city</p>
+    <form>
+        <div class="mb-3">
+            <label for="city" class="form-label">Type in the city below:</label>
+            <input type="text" class="form-control" id="city">
+        </div>
+        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+    </form>
 </div>
 
+
 <div class="container"> 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-5">
         
-        <div class="col">
+        <div class="col d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
                 <img src="~/image/sun.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -22,22 +28,22 @@
             </div>
         </div>
 
-        <div class="col">
-            <div class="card" style="width: 18rem;">
+        <div class="col d-flex justify-content-center">
+            <div class="card " style="width: 18rem;">
                 <img src="~/image/sun.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">@Model.city</h5>
-                    <p class="card-text">Temp: @Model.temp</p>
+                    <h5 class="card-title">Calgary</h5>
+                    <p class="card-text">Temp: 24</p>
                 </div>
             </div>
         </div>
 
-        <div class="col">
+        <div class="col d-flex justify-content-center">
             <div class="card" style="width: 18rem;">
                 <img src="~/image/sun.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">@Model.city</h5>
-                    <p class="card-text">Temp: @Model.temp</p>
+                    <h5 class="card-title">Toronto</h5>
+                    <p class="card-text">Temp: 24</p>
                 </div>
             </div>
         </div>
