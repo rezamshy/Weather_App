@@ -1,7 +1,7 @@
 # Weather App
 
-A weather app built with ASP.NET Core MVC with user authentication, routing, and database interaction.
-Keep track of users' added locations.
+A weather app with ASP.NET Core MVC, user authentication, routing, and database interaction.
+Keeps track of users' added locations.
 
 
 In order to run the application:
