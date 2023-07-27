@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MVCWeather.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<MVCWeatherContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("MVCWeatherContext") ?? throw new InvalidOperationException("Connection string 'MVCWeatherContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

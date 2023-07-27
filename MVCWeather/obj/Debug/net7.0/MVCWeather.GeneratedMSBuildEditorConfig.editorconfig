@@ -32,6 +32,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/Views/Weather/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VhdGhlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/Views/Weather/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VhdGhlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/Views/Weather/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VhdGhlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/Views/Weather/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VhdGhlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/Views/Weather/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VhdGhlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

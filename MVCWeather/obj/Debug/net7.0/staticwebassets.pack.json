@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/image/.DS_Store"
     },
     {
+      "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/image/Screenshot.png",
+      "PackagePath": "staticwebassets/image/Screenshot.png"
+    },
+    {
       "Id": "/Users/reza/Documents/Projects/GitHub/Weather_App/MVCWeather/wwwroot/image/sun.jpg",
       "PackagePath": "staticwebassets/image/sun.jpg"
     },
