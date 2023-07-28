@@ -22,13 +22,9 @@ namespace MVCWeather.Controllers
         // GET: Weather
         public async Task<IActionResult> Index()
         {
-            Weather weather = new Weather(1, "Edmonton", 23, "sun");
-            return View(weather);
-              /*
-              return _context.Weather != null ? 
-                          View(await _context.Weather.ToListAsync()) :
-                          Problem("Entity set 'MVCWeatherContext.Weather'  is null.");
-               */
+            return _context.Weather != null ? 
+                View(await _context.Weather.ToListAsync()) :
+                Problem("Entity set 'MVCWeatherContext.Weather'  is null.");           
         }
 
         // GET: Weather/Details/5
